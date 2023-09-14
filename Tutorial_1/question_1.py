@@ -21,7 +21,7 @@ def pth_percent(list, length, p):
         pth_percentile = list[int(pth_pos)]
     return pth_percentile
 
-data_sample = [2099,528,2030,1350,1018,384,1499,1265,375,424,789,810,522,513,488,200,215,486,257,557,260,461,501]
+data_sample = [2099,528,2030,1350,1018,384,1499,1265,375,424,789,810,522,513,488,200,215,486,257,557,260,461,500]
 data_len = len(data_sample)
 data_sample.sort()
 list_len = len(data_sample)
